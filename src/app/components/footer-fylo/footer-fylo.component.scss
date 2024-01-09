@@ -1,0 +1,51 @@
+.footer-fylo {
+  min-height: 60vh;
+  background-color: var(--Very-Dark-Blue);
+  color: white;
+}
+
+.footer-fylo img {
+  filter: brightness(0) invert(1);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  color: white !important;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+}
+
+li:hover {
+  color: var(--Bright-Blue) !important;
+}
+
+
+
+
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social svg {
+  color: var(--Blue);
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+
+}
+
+.social svg:hover {
+  color: var(--Bright-Blue);
+  border-color: var(--Bright-Blue);
+}

@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --Very-Dark-Blue: hsl(243, 87%, 12%);
+  --Desaturated-Blue: hsl(238, 22%, 44%);
+
+  // Accent
+
+  --Bright-Blue: hsl(224, 93%, 58%);
+  --Moderate-Cyan: hsl(170, 45%, 43%);
+
+  // Neutral
+
+  --Light-Grayish-Blue: hsl(240, 75%, 98%);
+  --Light-Gray: hsl(0, 0%, 75%);
+
+  --Light-Red: hsl(354, 100%, 66%);
+
+}
+
+* {}
+
+body {
+  font-family: 'Open Sans', sans-serif !important;
+
+
+}
+
+h1,
+h6,
+h2,
+header,
+button,
+a {
+  font-family: 'Raleway', sans-serif !important;
+
+}
+
+h1 {
+  color: var(--Very-Dark-Blue);
+}
+
+p {
+  color: var(--Desaturated-Blue);
+}
+
+li {
+  color: var(--Desaturated-Blue);
+
+}

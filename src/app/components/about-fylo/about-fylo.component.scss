@@ -1,0 +1,72 @@
+.about {
+  margin-top: 110px;
+  min-height: 100vh;
+  background-color: var(--Light-Grayish-Blue);
+  position: relative;
+
+}
+
+.about::after {
+  content: "";
+  position: absolute;
+  top: -110px;
+  background-image: url("../../../assets/images/bg-curve-desktop.svg");
+  background-size: cover;
+  height: 110px;
+  width: 100%;
+  z-index: -1;
+
+}
+
+@media (max-width:992px) {
+  .about::after {
+    background-image: url("../../../assets/images/bg-curve-mobile.svg");
+
+  }
+}
+
+.about .image img {
+  max-width: 100%;
+}
+
+
+.fylo-works {
+  color: var(--Moderate-Cyan);
+  text-decoration: none;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+
+
+}
+
+.fylo-works:hover {
+  opacity: 70%;
+}
+
+.box {
+  background-color: white;
+  width: 60%;
+  border-radius: 5px;
+  box-shadow: var(--Light-Gray) 0px 5px 15px;
+}
+
+.box .profile img {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.box .profile .name h6 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.box .profile .name span {
+  font-size: 12px;
+}
+
+@media (max-width:992px) {
+  .box {
+    width: 100%;
+  }
+}

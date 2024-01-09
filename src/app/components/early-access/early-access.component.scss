@@ -1,0 +1,30 @@
+.access {
+  min-height: 40vh;
+  background-color: var(--Desaturated-Blue);
+  color: white;
+}
+
+.access p {
+  color: white;
+}
+
+.dirt {
+  border-color: var(--Light-Red);
+}
+
+
+
+.wrong {
+  color: var(--Light-Gray);
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+form button {
+  width: 100%;
+  background-color: var(--Bright-Blue);
+}
+
+form button:hover {
+  background-color: var(--Light-Gray);
+}
